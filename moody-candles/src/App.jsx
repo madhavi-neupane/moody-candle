@@ -25,24 +25,3 @@ function App() {
 export default App
 
 
-
-
-
-
-
-
-
-// import React from 'react'
-// import './App.css'
-// import UserSelector from '../components/UserSelector'
-
-// function App() {
-//   return (
-//     <div>
-//       <h1>welcome users</h1>
-//       <UserSelector/>
-//     </div>
-//   )
-// }
-
-// export default App
