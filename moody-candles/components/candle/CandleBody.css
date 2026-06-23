@@ -1,0 +1,37 @@
+.candle-body {
+    width: 50px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.095);
+    position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -12px; */
+}
+
+.candle-thread {
+    width: 2px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 24px;
+    top: -6px;
+    box-shadow: black;
+    box-shadow: rgb(255 0 0) 0px 0 25px 2px, rgb(0 0 0) 0px 2px 20px 1px;
+}
+
+/* variant */
+
+.classic {
+    background: linear-gradient(to bottom, #fff5e1, #ffd6a5);
+}
+
+.love {
+    background: linear-gradient(to bottom, #fff5e1, #d334be);
+}
+
+.moody {
+    background: linear-gradient(to bottom, #fff5e1, #412626);
+}
+
+.rainbow {
+    background: linear-gradient(to bottom, #fff5e1, #ffd6a5, #412626, #d334be);
+}

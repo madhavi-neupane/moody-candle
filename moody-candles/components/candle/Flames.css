@@ -1,0 +1,23 @@
+.flame {
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: -30px;
+    left: 15px;
+    background: radial-gradient(circle, #ffeb3b 30%, #ff9800 60%, transparent 80%);
+    border-radius: 50% 50% 50% 50%;
+    /* transform: translateX(-50%); */
+    animation: flicker 0.3s infinite alternate;
+}
+
+@keyframes flicker {
+    from {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scaleY(1.1);
+        opacity: 0.8;
+    }
+}
