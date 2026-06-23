@@ -12,7 +12,7 @@ function App() {
     <select value={selectedCandle}
     onChange={(e) => setSelectedCandle(e.target.value)}>
       <option value="classic">Classic</option>
-      <option value="love">Lovey Dovey</option>
+      <option value="love">Lovey Dovey</option> 
       <option value="moody">Happy Mood</option>
       <option value="rainbow">Neutral</option>
 
